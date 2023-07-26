@@ -1,0 +1,52 @@
+.name{
+    background-color: blue;
+    border:1px solid black;
+}
+.education{
+    background-color: purple;
+    border: 1px solid black;
+
+}
+.box{
+    height:300px;
+    width:200px;
+    background-color: red;
+    margin-bottom: 2px;
+    padding:30px;
+
+
+}
+.box1{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    margin-top: 3px;
+    padding:30px;
+    height:500px;
+
+
+}
+.container{
+    display:flex;
+    justify-content: center;
+    height:300px;
+    align-items: center;
+  
+
+}
+.child{
+    height:300px;
+    width:20%;
+    background-color: aqua;
+}
+.child2{
+    height:300px;
+    
+
+}
+/* text-align */
+/* display:flex  is applied is a parent container effect will show the child item*/
+/* align-item:place your element anywhere in vertically */
+/* justify-content: place your element anywhere horizontally */
+/* flex-direction means columns */
+

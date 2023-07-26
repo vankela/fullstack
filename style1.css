@@ -1,0 +1,134 @@
+
+html,body{
+    height:100%;
+    width:100%;
+
+}
+*{
+    margin:0;
+    padding:0;
+    
+}
+.name{
+    background-color:#0A4D68;
+    border:1px solid black;
+    height:100px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:0;
+    padding:3px;
+    height:100px;
+    width:200px; */
+
+}
+.education{
+    background-color: aqua;
+    border: 1px solid black;
+    height:300px;
+    margin-bottom:5px;
+    padding-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:0;
+    height:100%;
+    width:200%; */
+
+
+}
+.child1{
+    height:300px;
+    width:20%;
+    background-color: aqua;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.child2{
+    height:300px;
+    width:30%;
+    background-color: aqua;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    height:300px;
+    width:40%;
+    background-color:aqua;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.acchieved{
+    background-color:#FBA1B7;
+    border:1px solid black;
+    height:100px;
+    margin-bottom: 5px;
+    
+    /* margin: 0;
+    padding:0;
+    height:100%;
+    width:100%; */
+
+
+}
+#intern{
+    background-color: #9376E0;
+    border:1px solid black;
+    margin-bottom: 5px;
+    height:100px;
+    padding: 2px;
+    /* margin: 0;
+    padding:3px;
+    width:100%; */
+
+}
+.intern1{
+    background-color: #9376E0;
+    padding: 2px;
+  
+    height:100px;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 2px;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 0;
+    padding:3px;
+    width:100%; */
+
+}
+
+
+
+.addtionalinfo{
+    background-color: aquamarine;
+    border:1px solid black;
+    height:250px;
+    align-item
+    /* margin: 0;
+    padding:0;
+    height:100%;
+    width:100%; */
+
+}
+/* text-align */
+/* display:flex  is applied is a parent container effect will show the child item*/
+/* align-item:place your element anywhere in vertically */
+/* justify-content: place your element anywhere horizontally */
+/* flex-direction means columns */
