@@ -49,4 +49,61 @@
 /* align-item:place your element anywhere in vertically */
 /* justify-content: place your element anywhere horizontally */
 /* flex-direction means columns */
+html,body{
+    height:100%;
+    width: 100%;
+   
+}
+.parent{
+    height:20%;
+    width:20%;
+    background-color:pink;
+    position:relative;
+    border :1px solid black;
+    top:100px;
+    left:100px;
+}
+/* only use this when you want to change the position of any html element relative to its original pasition */
+.c1{
+    /* absoulte works on child elements whose parent is relative in position */
+    height:15%;
+    width:10%;
+    background-color:orange;
+    position:absolute;
+    
+    border :1px solid black;
+    top:40px;
+    left:50px;
 
+}
+.c2{
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+    margin:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-weight:border;
+   
+    position: fixed;
+    right:0;
+    bottom:0;
+    
+}
+.stick{
+    height:10%;
+    width:100%;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: blue;
+    position:fixed;
+    top:0;
+    bottom: 0;
+    
+
+}
